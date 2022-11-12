@@ -277,7 +277,7 @@ disp_z_coordinate_y=y(disp_z_elements);    disp_z_coordinate_z=z(disp_z_elements
         for p=1:disp_z_numbers
                 fprintf(fid,'D,%d, uy,  0\n',disp_z_elements(p));
                 fprintf(fid,'D,%d, uz,  0\n',disp_z_elements(p));
-        end        
+        end         
         for p=1:vinc_z_numbers
                 fprintf(fid,'D,%d, uy,  0\n',vinc_z_elements(p));
                 fprintf(fid,'D,%d, uz,  0\n',vinc_z_elements(p));
